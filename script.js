@@ -1,11 +1,4 @@
-
-// https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=metric&appid=${api-key}
-
 const API_KEY = 'e6bf05850dabed855e5302a71ff49055'
-const URL = 'https://api.openweathermap.org/data/3.0/onecall?lat=21.7156221&lon=87.4826755&units=metric&appid=e6bf05850dabed855e5302a71ff49055'
-
-// const lat = '21.7156221';
-// const lon = '87.4826755'
 
 const getWeatherData = async (lat,lon) =>{
     const URL = 'https://api.openweathermap.org/data/3.0/onecall'
